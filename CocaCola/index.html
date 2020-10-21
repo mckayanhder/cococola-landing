@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive CocaCola</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./img/logo.png" class="logo"></a><p class="pour">&#60--Pour Me Out</p>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#">Newsletter</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header> 
+<div class="content">
+    <div class="textbox">
+        <h2>That's What <br><span>I Like</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vero porro rerum possimus labore reiciendis minima iure sapiente eum, illo officia voluptatibus iusto optio ea ex eius adipisci ullam ratione cupiditate odio facere quos inventore dolore tempora. Fuga, esse sapiente?</p>
+        <button class="button" type="button">View All Products</button>
+    </div>
+    <div class="imgBox">
+        <img src="./img/classiccokecan.png" class="coke1" >
+    </div>
+</div>
+<ul class="thumb">
+    <li><img src="/img/classiccokecan.png" onclick="imgSlider('./img/classiccokecan.png');changeBgColor(`#F40009`)" class="coke"></li>
+      <li><img src="/img/diet-cokecan.png" onclick="imgSlider('./img/diet-cokecan.png');changeBgColor(`#A7A7A7`)" class="dietcoke"></li>
+      <li><img src="/img/coke-zero.png" onclick="imgSlider('./img/coke-zero.png');changeBgColor(`#000000`)" class="cokezero"></li>
+</ul>
+<ul class="sci">
+    <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+    <li><a href="#"><img src="./img/instagram.png" alt=""></a></li>
+    <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
+</ul>
+    </section>
+    <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
